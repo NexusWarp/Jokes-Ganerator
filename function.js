@@ -9,7 +9,7 @@ async function  getJoke(){
     let response =  await fetch("https://v2.jokeapi.dev/joke/Any?blacklistFlags=religious&type=single");
     let data =  await response.json();
     btn.innerHTML = "One More Please";
-  setInterval(()=>{
+  setTimeout(()=>{
     btn.style.visibility = "visible"
   },5000)
     text.innerHTML = data.joke;
