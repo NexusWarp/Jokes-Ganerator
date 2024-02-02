@@ -1,1 +1,1 @@
-jokes generator in js.
+jokes generator in JS
