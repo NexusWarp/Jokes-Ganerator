@@ -1,1 +1,1 @@
-jokes generator app built in Js
+jokes generator app built in Js.
