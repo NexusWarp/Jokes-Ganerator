@@ -4,7 +4,7 @@ let btnClicked = false;
 btn.addEventListener("click", getJoke);
 
 async function  getJoke(){
-    text.innerHTML="Loading .....";
+    text.innerHTML="Loading ....";
     btn.style.visibility ="hidden";
     let response =  await fetch("https://v2.jokeapi.dev/joke/Any?blacklistFlags=religious&type=single");
     let data =  await response.json();
